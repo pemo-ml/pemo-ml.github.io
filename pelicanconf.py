@@ -12,7 +12,7 @@ TIMEZONE = 'Europe/Paris'
 
 DEFAULT_LANG = 'en'
 
-THEME = "bootlex"
+THEME = "aboutwilson"
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
