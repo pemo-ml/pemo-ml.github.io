@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = 'Peter'
 SITENAME = 'Rather Read Blog'
-SITEURL = 'http://petermortimer.de'
+SITEURL = ''
 
 PATH = 'content'
 
@@ -22,9 +22,10 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # adding favicon based on https://github.com/getpelican/pelican/wiki/Tips-n-Tricks
-STATIC_PATHS = ['extra/favicon.ico']
+STATIC_PATHS = ['extra/favicon.ico', 'extra/CNAME']
 EXTRA_PATH_METADATA = {
-    'extra/favicon.ico': {'path': 'favicon.ico'}
+    'extra/favicon.ico': {'path': 'favicon.ico'},
+    'extra/CNAME': {'path': 'CNAME'}
 }
 
 # Blogroll
@@ -38,4 +39,4 @@ SOCIAL = (('GitHub', 'https://github.com/tonyromarock'),)
 DEFAULT_PAGINATION = 8
 
 # Uncomment following line if you want document-relative URLs when developing
-#RELATIVE_URLS = True
+RELATIVE_URLS = True
