@@ -3,16 +3,17 @@
 from __future__ import unicode_literals
 
 AUTHOR = 'Peter'
-SITENAME = 'Rather Read Blog'
+SITENAME = 'Data Scientist\'s Notebook'
 SITEURL = ''
 
 PATH = 'content'
 
 TIMEZONE = 'Europe/Paris'
+DEFAULT_DATE_FORMAT = '%B %d %Y'
 
 DEFAULT_LANG = 'en'
 
-THEME = "aboutwilson"
+THEME = "mywilson"
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
