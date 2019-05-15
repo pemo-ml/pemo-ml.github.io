@@ -3,3 +3,5 @@ make html && make serve
 make publish
 /home/peter/anaconda3/envs/py36/lib/python3.6/site-packages/pelican/themes/aboutwilson
 pelican-themes --install [THEME_DIR]--verbose
+git rm --cached projectfolder
+https://fedoramagazine.org/make-github-pages-blog-with-pelican/
