@@ -6,8 +6,6 @@ Slug: pip-blender-python
 Authors: Peter Mortimer
 Summary: A short guide on how to install pip for the Python version bundled with Blender.
 
-# pip for Python in Blender
-
 If you are working on a Computer Vision project in Python that requires 3D scene renderings, then [Blender](https://www.blender.org/) is the way to go. Blender comes bundled with its own Python version, which can be used to write Python scripts for Blender. This is useful for automating rendering jobs, since Python in Blender provides you the **bpy** module, which gives you access to Blender data, classes, and functions. 
 
 Unfortunately, the Python in Blender does not share libraries with your system's Python. But if you don't want to be limited to the Python Standard Library available for Python in Blender, then you can install pip for Python in Blender.
