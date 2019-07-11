@@ -3,7 +3,7 @@
 from __future__ import unicode_literals
 
 AUTHOR = 'Peter'
-SITENAME = 'My Notes on Data Science'
+SITENAME = 'A Place for Asides'
 SITEURL = ''
 
 PATH = 'content'
@@ -27,7 +27,7 @@ PLUGIN_PATHS = ['/home/peter/Documents/pelican-plugins']
 PLUGINS = ['render_math']
 
 # adding favicon based on https://github.com/getpelican/pelican/wiki/Tips-n-Tricks
-STATIC_PATHS = ['extra/favicon.ico', 'extra/CNAME']
+STATIC_PATHS = ['extra/favicon.ico', 'extra/CNAME', 'images']
 EXTRA_PATH_METADATA = {
     'extra/favicon.ico': {'path': 'favicon.ico'},
     'extra/CNAME': {'path': 'CNAME'}

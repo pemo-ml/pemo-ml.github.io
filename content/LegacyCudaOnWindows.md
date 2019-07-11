@@ -6,8 +6,6 @@ Slug: legacy-pytorch-750m
 Authors: Peter Mortimer
 Summary: Some helpful notes when installing Pytorch 0.3.0 on a Windows PC with a GeForce GT 750M.
 
-# Installing legacy PyTorch for Windows
-
 It can be useful to have a working version of PyTorch installed on your outdated local Windows machine to be able to run the prediction of pre-trained models written in PyTorch. I encountered a few roadblocks during my installation, where I really wished for more information on the web somewhere. Therefore, here are some notes I have made while installing PyTorch on my outdated laptop (Acer Aspire from 2013).
 
 You cannot run the most recent version of PyTorch (0.4.0 at the time of writing) with GPU support on an older machine with an outdated graphics card. In my case my Acer Aspire from 2013 has a NVIDIA GeForce GT 750M. The GeForce GT 750M has a CUDA compute capability of 3.0. You can look up the compute capability of all CUDA GPUs on [this official NVIDIA page](https://developer.nvidia.com/cuda-gpus).
