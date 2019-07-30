@@ -33,6 +33,10 @@ EXTRA_PATH_METADATA = {
     'extra/CNAME': {'path': 'CNAME'}
 }
 
+# Links in header
+HEADER_LINKS = ( ('About', '/pages/about.html'),
+				 ('Recent Projects', '/pages/previous-projects.html'), )
+
 # Blogroll
 LINKS = (('Greg Reda', 'http://www.gregreda.com/'),
          ('mkaz.blog', 'https://mkaz.blog/'),
