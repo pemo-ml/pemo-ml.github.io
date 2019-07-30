@@ -1,15 +1,14 @@
 Title: Previous Projects
 Date: 2019-07-10 23:55
-Category: Portfolio
+Category: Author
 Tags: Data Science, Computer Vision
 Slug: previous-projects
 Authors: Peter Mortimer
 Summary: An overview of previous projects I have worked on.
-Status: hidden
 
 # Previous Projects
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque scelerisque dictum dui at ullamcorper. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Curabitur rhoncus sodales neque. Nam mi lorem, tempor vitae diam quis, sagittis porttitor magna. Sed facilisis tortor a turpis pretium, sed finibus tortor molestie. Aenean eget metus mollis, molestie quam ut, blandit ligula. Vivamus in tellus suscipit, rutrum elit at, tristique odio. Aenean iaculis semper erat vel sollicitudin. Integer ut mattis nisl, at ornare justo. In vel metus commodo, accumsan lectus a, consectetur magna. Aenean eu lobortis purus. Praesent dolor ligula, placerat a enim at, venenatis mattis metus. Nam euismod quam nec risus egestas rutrum. Curabitur finibus rhoncus elit, ac scelerisque arcu placerat sit amet. Vestibulum tortor eros, interdum in eros tincidunt, blandit vehicula sem.
+Here is a brief overview of different projects I have been working on over the course of my studies and internships. For many of the projects, the source code is not publicly available. Please visit my [GitHub profile](https://github.com/tonyromarock) if you are more interested in the code I have written.
 
 <hr>
 
@@ -68,7 +67,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque scelerisque dic
 **3D Instances from a single RGB Image**
 <div class="row">
 <div class="col-8 col-sm-8">
-<p>n my master thesis, I worked on using deep learning to detect the placement of 3D objects within a scene from a single RGB image of the indoor scene. I compared the predictive performance of using a point cloud object representation to a factored 3D object representation as output of the network architecture.</p>
+<p>In my master thesis, I worked on using deep learning to detect the placement of 3D objects within a scene from a single RGB image of the indoor scene. I compared the predictive performance of using a point cloud object representation to a factored 3D object representation as output of the network architecture.</p>
 <p><b>Technologies:</b> PyTorch</p>
 <p>September 2018 - May 2019</p>
 </div>
