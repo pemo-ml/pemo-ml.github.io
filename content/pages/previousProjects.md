@@ -12,54 +12,15 @@ Here is a brief overview of different projects I have been working on over the c
 
 <hr>
 
-**“Visual Comparison of Isosurface Ensembles using Cutaway Views”**
+**Automated Extraction of Road Features Using LiDAR Data**
 <div class="row">
 <div class="col-8 col-sm-8">
-<p>In my bachelor thesis at the chair for Computer Graphics and Visualization I implemented novel visualization techniques to analyze ensemble data, particularly for the domain of weather data. The use of cutting geometries to create cutaway views allows one to reduce the visual clutter in the ensemble data without losing the overall visual context. I developed a demo and use case that allowed the placement of cutting geometries to create cutaway views.</p>
-<p><b>Technologies:</b> C++, Python, OpenGL</p>
-<p>April 2016 - August 2016</p>
+<p>This research internship was organized by the University of Alberta Research Experience (UARE) program. At the City of Edmonton Research Chair in Urban Traffic Safety I developed prototypes for automatically detecting structural properties from LiDAR scans of highways in Alberta. Among these structural properties were measuring the lane width of the road and detecting pavement distresses indicating fatigue at the given highway segment.</p>
+<p><b>Technologies:</b> MATLAB, CloudCompare</p>
+<p>May 2019 - August 2019</p>
 </div>
 <div class="col-4 col-sm-4">
-<img src="/images/prev_projects/BA_image.png">
-</div>
-</div>
-<hr>
-
-**“Recognition of Structural Motifs”**
-<div class="row">
-<div class="col-8 col-sm-8">
-<p>In the practical course “Hands-On Deep Learning for Computer Vision and Biomedicine” we developed a fully convolutional network to detect realistic looking motifs in protein images of artificially constructed proteins. The motifs are represented as local features in the protein image, while the network output measured how realistic a particular motif looks compared to motifs found in known proteins</p>
-<p><b>Technologies:</b> Python, Theano, Lasagne</p>
-<p>April 2017 - August 2017</p>
-</div>
-<div class="col-4 col-sm-4">
-<img src="/images/prev_projects/motif_image.png">
-</div>
-</div>
-<hr>
-
-**Summer Internship at Spirent Communications as a Data Scientist**
-<div class="row">
-<div class="col-8 col-sm-8">
-<p>During a 10 week summer internship I worked on two data science projects using the call detail record data of a large mobile network carrier in North America. The projects revolved around relating customer experience metrics to their overall mobile usage and detecting long-distance travellers based on their mobile usage.</p>
-<p><b>Technologies:</b> Python, SQL</p>
-<p>August 2017 - November 2017</p>
-</div>
-<div class="col-4 col-sm-4">
-<img src="/images/prev_projects/cell_towers_mexico.png">
-</div>
-</div>
-<hr>
-
-**Development of a Car Detector**
-<div class="row">
-<div class="col-8 col-sm-8">
-<p>In the course “Introduction to Image Analysis and Machine Learning” at the IT University of Copenhagen we developed a car detector as a final project. The car detector could detect cars driving along a highway. We used traditional image analysis techniques to detect image patches that potentially contain cars and then used a convolutional neural network to classify the image patch.</p>
-<p><b>Technologies:</b> Python, OpenCV</p>
-<p>February 2018 - July 2018</p>
-</div>
-<div class="col-4 col-sm-4">
-<img src="/images/prev_projects/highway_detector.png">
+<img src="/images/prev_projects/uare_pavement.png">
 </div>
 </div>
 <hr>
@@ -77,3 +38,53 @@ Here is a brief overview of different projects I have been working on over the c
 </div>
 <hr>
 
+**Development of a Car Detector**
+<div class="row">
+<div class="col-8 col-sm-8">
+<p>In the course “Introduction to Image Analysis and Machine Learning” at the IT University of Copenhagen we developed a car detector as a final project. The car detector could detect cars driving along a highway. We used traditional image analysis techniques to detect image patches that potentially contain cars. We then used a convolutional neural network to classify the image patch.</p>
+<p><b>Technologies:</b> Python, OpenCV</p>
+<p>February 2018 - July 2018</p>
+</div>
+<div class="col-4 col-sm-4">
+<img src="/images/prev_projects/highway_detector.png">
+</div>
+</div>
+<hr>
+
+**Summer Internship at Spirent Communications as a Data Scientist**
+<div class="row">
+<div class="col-8 col-sm-8">
+<p>During a 10 week summer internship I worked on two data science projects using the call detail record data of a large mobile network carrier in North America. The projects revolved around relating customer experience metrics to their overall mobile usage and detecting long-distance travellers based on their mobile usage.</p>
+<p><b>Technologies:</b> Python, SQL</p>
+<p>August 2017 - November 2017</p>
+</div>
+<div class="col-4 col-sm-4">
+<img src="/images/prev_projects/cell_towers_mexico.png">
+</div>
+</div>
+<hr>
+
+**Recognition of Structural Motifs**
+<div class="row">
+<div class="col-8 col-sm-8">
+<p>In the practical course “Hands-On Deep Learning for Computer Vision and Biomedicine” we developed a fully convolutional network to detect realistic looking motifs in protein images of artificially constructed proteins. The motifs are represented as local features in the protein image, while the network output measured how realistic a particular motif looks compared to motifs found in known proteins</p>
+<p><b>Technologies:</b> Python, Theano, Lasagne</p>
+<p>April 2017 - August 2017</p>
+</div>
+<div class="col-4 col-sm-4">
+<img src="/images/prev_projects/motif_image.png">
+</div>
+</div>
+<hr>
+
+**Visual Comparison of Isosurface Ensembles using Cutaway Views**
+<div class="row">
+<div class="col-8 col-sm-8">
+<p>In my bachelor thesis at the chair for Computer Graphics and Visualization I implemented novel visualization techniques to analyze ensemble data, particularly for the domain of weather data. The use of cutting geometries to create cutaway views allows one to reduce the visual clutter in the ensemble data without losing the overall visual context. I developed a demo and use case that allowed the placement of cutting geometries to create cutaway views.</p>
+<p><b>Technologies:</b> C++, Python, OpenGL</p>
+<p>April 2016 - August 2016</p>
+</div>
+<div class="col-4 col-sm-4">
+<img src="/images/prev_projects/BA_image.png">
+</div>
+</div>
