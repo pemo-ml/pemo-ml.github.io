@@ -2,16 +2,16 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
-AUTHOR = 'Peter'
-SITENAME = 'A Place for Asides'
-SITEURL = ''
+AUTHOR = "Peter"
+SITENAME = "A Place for Asides"
+SITEURL = ""
 
-PATH = 'content'
+PATH = "content"
 
-TIMEZONE = 'Europe/Paris'
-DEFAULT_DATE_FORMAT = '%B %d %Y'
+TIMEZONE = "Europe/Paris"
+DEFAULT_DATE_FORMAT = "%B %d %Y"
 
-DEFAULT_LANG = 'en'
+DEFAULT_LANG = "en"
 
 THEME = "mywilson"
 
@@ -23,27 +23,33 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # additional plugins
-PLUGIN_PATHS = ['/home/peter/Documents/pelican-plugins']
-PLUGINS = ['render_math']
+PLUGIN_PATHS = ["/home/peter/Documents/pelican-plugins"]
+PLUGINS = ["render_math"]
 
 # adding favicon based on https://github.com/getpelican/pelican/wiki/Tips-n-Tricks
-STATIC_PATHS = ['extra/favicon.ico', 'extra/CNAME', 'images']
+STATIC_PATHS = ["extra/favicon.ico", "extra/CNAME", "images"]
 EXTRA_PATH_METADATA = {
-    'extra/favicon.ico': {'path': 'favicon.ico'},
-    'extra/CNAME': {'path': 'CNAME'}
+    "extra/favicon.ico": {"path": "favicon.ico"},
+    "extra/CNAME": {"path": "CNAME"},
 }
 
 # Links in header
-HEADER_LINKS = ( ('About', '/pages/about.html'),
-				 ('Previous Projects', '/pages/previous-projects.html'), )
+HEADER_LINKS = (
+    ("About", "/pages/about.html"),
+    ("Previous Projects", "/pages/previous-projects.html"),
+    ("Blog", "/"),
+    ("Books I've read", "/pages/books.html"),
+)
 
 # Blogroll
-LINKS = (('Greg Reda', 'http://www.gregreda.com/'),
-         ('mkaz.blog', 'https://mkaz.blog/'),
-         ('inFERENCe', 'https://www.inference.vc/'),)
+LINKS = (
+    ("Greg Reda", "http://www.gregreda.com/"),
+    ("mkaz.blog", "https://mkaz.blog/"),
+    ("inFERENCe", "https://www.inference.vc/"),
+)
 
 # Social widget
-SOCIAL = (('GitHub', 'https://github.com/tonyromarock'),)
+SOCIAL = (("GitHub", "https://github.com/tonyromarock"),)
 
 DEFAULT_PAGINATION = 8
 
