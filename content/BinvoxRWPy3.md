@@ -14,7 +14,7 @@ Some research projects in the field of 3D machine learning may use this library 
 
 The original binvox-rw-py from the GitHub user [dimatura](https://github.com/dimatura/) has issues with writing .binvox files when running it in Python 3, since it was implemented with the byte handling of Python 2 in mind. I discovered this after a few frustrating hours by simply reading and writing the same .binvox file I generated for my project and comparing the resulting voxelized scenes using [viewvox](https://www.patrickmin.com/viewvox/) (which is also from Patrick Min):
 
-![Comparing the resulting voxelized scenes when reading and writing the same .binvox file using binvox-rw-py with Python 3. The left image shows the broken scene voxelization using dimatura's module with Python 3, while the right image shows the correct scene voxelization using pclausen's module with Python 3.]({static}/images/binvox_write_compare.png)
+![Comparing the resulting voxelized scenes when reading and writing the same .binvox file using binvox-rw-py with Python 3. The left image shows the broken scene voxelization using dimatura's module with Python 3, while the right image shows the correct scene voxelization using pclausen's module with Python 3.]({static}/images/binvox/binvox_write_compare.png)
 
 Luckly, the GitHub user [pclausen](https://github.com/pclausen/) has already created a forked version of the [binvox-rw-py](https://github.com/pclausen/binvox-rw-py) module that resolves this issue. This makes it possible to also use binvox-rw-py with Python 3.
 
