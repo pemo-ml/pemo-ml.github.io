@@ -42,12 +42,7 @@ HEADER_LINKS = (
 )
 
 # Blogroll
-LINKS = (
-    ("Greg Reda", "http://www.gregreda.com/"),
-    ("mkaz.blog", "https://mkaz.blog/"),
-    ("inFERENCe", "https://www.inference.vc/"),
-    ("Matt Might", "http://matt.might.net/#blog"),
-)
+LINKS = ()
 
 # Social widget
 SOCIAL = (("GitHub", "https://github.com/tonyromarock"),)
