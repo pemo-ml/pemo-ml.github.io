@@ -44,6 +44,7 @@ Here is a list of my favorite blogs and I will add some comments to some of them
 - [Nael Shiab](https://www.allendowney.com/blog/)
 - [Explorable Explanations](https://explorabl.es/)
 - [See, also](https://seealso.org/)
+- [Jason Davies](https://www.jasondavies.com/)
 
 ### Computer Science
 
@@ -75,3 +76,5 @@ Here is a list of my favorite blogs and I will add some comments to some of them
 - [Daniel Eden](https://daneden.me/)
 - [Hakim El Hattab](https://hakim.se/)
 - [Interactive Lecture Slides on the Web](https://graphics.uni-bielefeld.de/downloads/elearning/eLearning-deck.html#/title-slide)
+- [Tobias Ahlin](https://tobiasahlin.com/)
+- [Daniel Savage](https://somethingsavage.com/)

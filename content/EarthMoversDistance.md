@@ -6,10 +6,13 @@ Slug: earth-movers-distance
 Authors: Peter Mortimer
 Summary: What exactly is the Earth Mover's distance and how is it used in 3D Machine Learning?
 Status: draft
+Tocify: True
+
+<h1 style="visibility:hidden;;font-size:1px;">Visual Analysis of the Earth Mover's Distance</h1>
 
 Many recent research papers [[1](#pcn),[2](#pointoutnet)] focused on neural networks for 3D point cloud data use one of the two distance metrics as loss function or evaluation metric: the Chamfer distance ($D_{CD}$) and the Earth Mover's distance ($D_{EMD}$). The calculation of the Chamfer distance is easy to grasp, while the Earth Mover's distance is less clearly defined. In this post I want to give an overview of the Earth Mover's distance and in particular how it is used for training point cloud data. The Earth Mover's distance is also known under the term 1-Wasserstein metric, but we will refer to it as the Earth Mover's distance in this post.
 
-## Introduction
+### Introduction
 
 Let's first look at the mathematical definition of the Earth Mover's distance:
 
@@ -18,8 +21,16 @@ $$ D_{EMD}(S_{1},S_{2}) = \min_{\phi: S_{1} \to S_{2} } \frac{1}{|S_{1}|} \sum_{
 The function $\phi$ is a bijection (this also implies that $D_{EMD}$ is only defined for $|S_{1}| = |S_{2}|$). This can be seen as a matching between points in $S_{1}$ to points in $S_{2}$. The matching with the minimal euclidean distance therefore describes the Earth Mover's distance.
 A common interpretation of the Earth Mover's distance describes the measure as the minimum amount of work needed to spread a mass of earth collected in piles to fill a set of holes in the same given space [[4](#cvonline_emd),[5](#translocation)]. In this interpretation work is determined both by the weight of the earth moved and the distance that the earth had to be moved to fill the holes.
 
+### Previous Visualizations
 
-## References
+<!-- cite the point cloud paper with Expected cost values for EMD and Chamfer Dist. -->
+
+### EMD Loss on ShapeNet Instances
+
+<!-- create graphs/visualizations that show the EMD loss for different euler angles/translations -->
+
+
+### References
 
 <span id='pcn'>[1] Yuan, Khot, Held, Mertz, Herbert (3DV 2018) [PCN: Point Completion Network](https://www.cs.cmu.edu/~wyuan1/pcn/)</span>
 

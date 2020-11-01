@@ -8,7 +8,7 @@ Summary: An overview of previous projects I have worked on.
 
 # Previous Projects
 
-Here is a brief overview of different projects I have been working on over the course of my studies and internships. For many of the projects, the source code is not publicly available. Please visit my [GitHub profile](https://github.com/tonyromarock) if you are more interested in the code I have written.
+Here is a brief overview of different projects I have been working on over the course of my studies and internships. For many of the projects, the source code is not publicly available. Please visit my [GitHub profile](https://github.com/tonyromarock) if you are interested in the code I have written.
 
 <hr>
 
@@ -20,7 +20,10 @@ Here is a brief overview of different projects I have been working on over the c
 <p>May 2019 - August 2019</p>
 </div>
 <div class="col-4 col-sm-4">
-<img src="/images/prev_projects/uare_pavement.png">
+<a href="/images/prev_projects/uare_pavement.png" 
+data-lightbox="uoa-lightbox" 
+data-title="A local thresholding on elevation gradients and intensity values allowed for the detection of longitudinal cracks and transverse cracks in high-resolution LiDAR point clouds." 
+data-alt="An image of a LiDAR road segment with visible cracks both along the road (so-called longitudinal cracks) and perpendicular to the road (so-called transverse cracks). For both type of cracks there is also an example image from the real world. The LiDAR recoding was made with the Tetra Tech PSP-7000 survey vehicle."><img src="/images/prev_projects/uare_pavement.png"></a>
 </div>
 </div>
 <hr>
@@ -28,12 +31,28 @@ Here is a brief overview of different projects I have been working on over the c
 **3D Instances from a single RGB Image**
 <div class="row">
 <div class="col-8 col-sm-8">
-<p>In my master thesis, I worked on using deep learning to detect the placement of 3D objects within a scene from a single RGB image of the indoor scene. I compared the predictive performance of using a point cloud object representation to a factored 3D object representation as output of the network architecture.</p>
+<p>In my master thesis I worked on using deep learning to detect the placement of 3D objects within a scene from a single RGB image of the indoor scene. I compared the predictive performance of using a point cloud object representation to a factored 3D object representation as output of the network architecture.</p>
 <p><b>Technologies:</b> PyTorch</p>
 <p>September 2018 - May 2019</p>
 </div>
 <div class="col-4 col-sm-4">
-<img src="/images/prev_projects/bedroom_prediction.png">
+<a href="/images/prev_projects/ma_bedroom_prediction.png" 
+data-lightbox="master-thesis-lightbox" 
+data-title="The Factored3D network uses a factored object representation to predict the 3D position of objects in a scene. In the factored object representation the voxelized shape, position, scale, and rotation are predicted separately. I experimented with using different point cloud loss functions to fine-tune the overall predicition performance in a holistic manner." 
+data-alt=""><img src="/images/prev_projects/ma_bedroom_prediction.png"></a>
+
+<a href="/images/prev_projects/ma_scene_predictions.png" 
+data-lightbox="master-thesis-lightbox" 
+style="display:none"
+data-title="Here are a few example predictions of Factored3D on synthetic indoor scenes from the SUNCG dataset. The first column shows the input image given to the network. The second column shows the ground truth voxelized shape and position of each object in the scene. The third column shows the predicted scene of Factored3D trained using the suggested training stages by the original authors Tulsiani et al. The fourth column shows the predicted scene using the additional Earth Mover's distance on the point cloud representation of the objects to improve the overall prediction performance in a holistic manner." 
+data-alt="Here are a few example predictions of Factored3D on synthetic indoor scenes from the SUNCG dataset. The first column shows the input image given to the network. The second column shows the ground truth voxelized shape and position of each object in the scene. The third column shows the predicted scene of Factored3D trained using the suggested training stages by the original authors Tulsiani et al. The fourth column shows the predicted scene using the additional Earth Mover's distance on the point cloud representation of the objects to improve the overall prediction performance in a holistic manner."><img src="/images/prev_projects/ma_scene_predictions.png" style="visibilitydisplay:none;"></a>
+
+<a href="/images/prev_projects/ma_nyuv2_predictions.png" 
+data-lightbox="master-thesis-lightbox" 
+style="display:none"
+data-title="Here are a few example predictions of Factored3D on real world indoor scenes from the NYU-Depth V2 dataset. The first column shows the input image and the predicted object bounding boxes of the original Factored3D implementation by Tulsiani et al. The second column shows the predicted objects in the scene of the original Factored3D implementation. The third column shows the input image and the predicted object bounding boxes produced by my implementation of Factored3D. The fourth column shows the predicted objects in the scene of my implementation of Factored3D, which uses the Earth Mover's distance as a loss function on the point cloud representation of the scene to improve the overall performance in a holistic manner." 
+data-alt="Here are a few example predictions of Factored3D on real world indoor scenes from the NYU-Depth V2 dataset. The first column shows the input image and the predicted object bounding boxes of the original Factored3D implementation by Tulsiani et al. The second column shows the predicted objects in the scene of the original Factored3D implementation. The third column shows the input image and the predicted object bounding boxes produced by my implementation of Factored3D. The fourth column shows the predicted objects in the scene of my implementation of Factored3D, which uses the Earth Mover's distance as a loss function on the point cloud representation of the scene to improve the overall performance in a holistic manner."><img src="/images/prev_projects/ma_nyuv2_predictions.png" style="display:none;"></a>
+
 </div>
 </div>
 <hr>

@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
+import six
 
 AUTHOR = "Peter"
 SITENAME = "A Place for Asides"
@@ -24,7 +25,7 @@ AUTHOR_FEED_RSS = None
 
 # additional plugins
 PLUGIN_PATHS = ["/home/peter/Documents/pelican-plugins"]
-PLUGINS = ["render_math"]
+PLUGINS = ["metadataparsing", "render_math"]
 
 # adding favicon based on https://github.com/getpelican/pelican/wiki/Tips-n-Tricks
 STATIC_PATHS = ["extra/favicon.ico", "extra/CNAME", "images"]
@@ -38,7 +39,7 @@ HEADER_LINKS = (
     ("About", "/pages/about.html"),
     ("Previous Projects", "/pages/previous-projects.html"),
     ("Blog", "/"),
-    ("Books I've read", "/pages/books.html"),
+    ("Books I've Read", "/pages/books.html"),
 )
 
 # Blogroll
@@ -51,3 +52,11 @@ DEFAULT_PAGINATION = 8
 
 # Uncomment following line if you want document-relative URLs when developing
 RELATIVE_URLS = True
+
+# custom metadata parsers from pelican-metadataparsing
+def parseTocify(string):
+    return string == 'True'
+
+METADATA_PARSERS = {
+    "Tocify": parseTocify
+}

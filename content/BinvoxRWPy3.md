@@ -5,12 +5,15 @@ Tags: binvox, pip
 Slug: binvox-rw-py3
 Authors: Peter Mortimer
 Summary: My notes to using binvox-rw-py with Python 3.
+Tocify: True
+
+<h1 style="visibility:hidden;">Using binvox-rw-py with Python 3</h1>
 
 The Python project **binvox-rw-py** is based on the [binvox](https://www.patrickmin.com/binvox/) project from Patrick Min. It is a simple and easy-to-use tool to convert 3D model files into 3D voxel grids (it supports most of the common 3D model file formats: .obj, .ply, .stl; the output format is typically the custom **.binvox** file format).
 
 Some research projects in the field of 3D machine learning may use this library to create voxelized scenes for training. These voxelized scenes are used to train networks to learn a rudimentary understanding of the scene's geometry in a more easily quantifiable way. This is how I stumbled upon the [binvox-rw-py](https://github.com/dimatura/binvox-rw-py) module, which enables you to read .binvox files as 3-dimensional Numpy arrays in Python. You can also write numpy arrays into .binvox using binvox-rw-py.
 
-### troubles with writing .binvox files in Python 3
+### Troubles with writing .binvox files in Python 3
 
 The original binvox-rw-py from the GitHub user [dimatura](https://github.com/dimatura/) has issues with writing .binvox files when running it in Python 3, since it was implemented with the byte handling of Python 2 in mind. I discovered this after a few frustrating hours by simply reading and writing the same .binvox file I generated for my project and comparing the resulting voxelized scenes using [viewvox](https://www.patrickmin.com/viewvox/) (which is also from Patrick Min):
 
