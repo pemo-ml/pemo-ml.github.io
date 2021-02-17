@@ -22,7 +22,7 @@ data-alt=""><img src="/images/publications/icpr2020/image_cube.png" /></a>
 <div class="col-10 col-sm-10">
 <p style="margin: 0px;">Kai Andreas Metzger, <b>Peter Mortimer</b> and Hans-Joachim Wuensche.</p> 
 <p style="margin: 0px;">"A Fine-Grained Dataset and its Efficient Semantic Segmentation for Unstructured Driving Scenarios"</p>
-<p style="margin: 0px;"><i>International Conference on Pattern Recognition (<b>ICPR</b>)</i>, Milan, Italy, Jan. 2021.</p>
-<p><a href="/">Paper</a> &middot; <a href="/">Dataset</a>  &middot; <a href="/">GitHub</a> 
+<p style="margin: 0px;"><i>International Conference on Pattern Recognition (<b>ICPR</b>)</i>, Milan, Italy, January 2021.</p>
+<p><a href="https://mucar3.de/icpr2020-tas500/">Project Page</a> &middot; <a href="https://drive.google.com/file/d/1TeJK-3EBkXzD9FCq4LOLGFRD3lmKqVdp/view">Paper</a> &middot; <a href="https://rzunibw-my.sharepoint.com/:f:/g/personal/thorsten_luettel_rzunibw_onmicrosoft_com/Evdia5SSRaRPuSO2CNsNHY8B3xdK8eHpG-9DSaeEbIJyUw?e=M6NMqI">Dataset</a> &middot; <a href="bibtex/icpr2020.txt">Bibtex</a>  <!--&middot; <a href="/">GitHub</a> --> 
 </div>
 </div>

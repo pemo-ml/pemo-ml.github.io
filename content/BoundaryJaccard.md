@@ -6,7 +6,7 @@ Slug: boundary-jaccard
 Authors: Peter Mortimer
 Summary: Visualizing the Boundary Jaccard metric for Semantic Image Segmentation.
 Tocify: True
-<!--Status: draft -->
+Status: draft
 
 <h1 style="visibility:hidden;">Boundary Jaccard (BJ Metric)</h1>
 
@@ -36,7 +36,7 @@ data-alt=""><img src="/images/bj_metric/darmstadt_pred.png"></a>
 </div>
 </div>
 
-<span class="caption">Here is an example scene out of the Cityscapes dataset. The second column shows the ground truth scene annotation by a human. The third column shows the output prediction of the Fast-SCNN network on the same input image.</span>
+<span class="caption">Here is an example scene out of the Cityscapes dataset. The second column shows the ground truth scene annotation by a human. The third column shows the output prediction of the Fast-SCNN network on the same input image. The question is how can we evaluate the model prediction in a quantitative manner?</span>
 <hr>
 
 ### Introducing the BJ Metric
@@ -51,17 +51,18 @@ $$ R^{c} = \frac{1}{|B_{gt}^{c}|} = \sum_{x \in B_{gt}^{c}} [[d(x,B_{ps}^{c}) < 
 
 $$ BF^{c} = F_{1}^{c} = \frac{2 \cdot P^{c} \cdot R^{c}}{P^{c} + R^{c}}$$
 
-This assumption is combined with the common Jaccard index (a.k.a. Intersection over Union). 
+This assumption on the higher relevance along the class borders is combined with the common Jaccard index (a.k.a. Intersection over Union). The Jaccard index is an established evaluation metric for 2D and 3D object detection tasks and can also be used to evaluate 2D semantic maps. In simple terms, the Jaccard index looks at the size of the relative overlap between the area made up by the prediction pixels and the ground truth pixels.
 
+$$ IoU^{c} = \frac{S_{ps}^{c} \cap S_{gt}^{c}}{S_{ps}^{c} \cup S_{gt}^{c}} $$
 
 
 ### References
 
-<span id='bj_iv'>[1] Eduardo Fernandez-Moral, Renato Martins, Denis Wolf, Patrick Rives (IV 2018) [A new metric for evaluating semantic segmentation: leveraging global and contour accuracy](https://hal.inria.fr/hal-01581525/document)</span>
+<span id='bj_iv'>[1] Eduardo Fernandez-Moral, Renato Martins, Denis Wolf, Patrick Rives (IV 2018) [A new metric for evaluating semantic segmentation: leveraging global and contour accuracy](https://hal.inria.fr/hal-01581525/document).</span>
 
 <span id='cityscapes'>[2] Marius Cordts, Mohamed Omran, Sebastian Ramos, Timo Rehfeld,
-Markus Enzweiler, Rodrigo Benenson, Uwe Franke, Stefan Roth, Bernt Schiele (CVPR 2016) [The Cityscapes Dataset for Semantic Urban Scene Understanding](https://www.cityscapes-dataset.com/wordpress/wp-content/papercite-data/pdf/cordts2016cityscapes.pdf)</span>
+Markus Enzweiler, Rodrigo Benenson, Uwe Franke, Stefan Roth, Bernt Schiele (CVPR 2016) [The Cityscapes Dataset for Semantic Urban Scene Understanding](https://www.cityscapes-dataset.com/wordpress/wp-content/papercite-data/pdf/cordts2016cityscapes.pdf).</span>
 
-<span id='fast_scnn'>[3] Rudra P. K. Poudel, Stephan Liwicki, Roberto Cipolla (BMVC 2019) [Fast-SCNN: Fast Semantic Segmentation Network](https://bmvc2019.org/wp-content/uploads/papers/0959-paper.pdf)- I use the [PyTorch implementation of Fast-SCNN](https://github.com/Tramac/Fast-SCNN-pytorch) by the GitHub User Tramac.</span>
+<span id='fast_scnn'>[3] Rudra P. K. Poudel, Stephan Liwicki, Roberto Cipolla (BMVC 2019) [Fast-SCNN: Fast Semantic Segmentation Network](https://bmvc2019.org/wp-content/uploads/papers/0959-paper.pdf) - I use the [PyTorch implementation of Fast-SCNN](https://github.com/Tramac/Fast-SCNN-pytorch) by the GitHub User Tramac.</span>
 
 <span id='bf_bmvc'>[4] Gabriela Csurka, Diane Larlus, Florent Perronnin (BMVC 2013) [What is a good evaluation measure for semantic segmentation?](http://www.bmva.org/bmvc/2013/Papers/paper0032/paper0032.pdf)</span>

@@ -28,7 +28,7 @@ PLUGIN_PATHS = ["/home/peter/Documents/pelican-plugins"]
 PLUGINS = ["metadataparsing", "render_math"]
 
 # adding favicon based on https://github.com/getpelican/pelican/wiki/Tips-n-Tricks
-STATIC_PATHS = ["extra/favicon.ico", "extra/CNAME", "images"]
+STATIC_PATHS = ["extra/favicon.ico", "extra/CNAME", "images", "pages/bibtex"]
 EXTRA_PATH_METADATA = {
     "extra/favicon.ico": {"path": "favicon.ico"},
     "extra/CNAME": {"path": "CNAME"},
@@ -53,6 +53,7 @@ DEFAULT_PAGINATION = 8
 
 # Uncomment following line if you want document-relative URLs when developing
 RELATIVE_URLS = True
+OUTPUT_SOURCES = True
 
 # custom metadata parsers from pelican-metadataparsing
 def parseTocify(string):
