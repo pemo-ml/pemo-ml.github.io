@@ -55,7 +55,6 @@ This assumption on the higher relevance along the class borders is combined with
 
 $$ IoU^{c} = \frac{S_{ps}^{c} \cap S_{gt}^{c}}{S_{ps}^{c} \cup S_{gt}^{c}} $$
 
-
 ### References
 
 <span id='bj_iv'>[1] Eduardo Fernandez-Moral, Renato Martins, Denis Wolf, Patrick Rives (IV 2018) [A new metric for evaluating semantic segmentation: leveraging global and contour accuracy](https://hal.inria.fr/hal-01581525/document).</span>

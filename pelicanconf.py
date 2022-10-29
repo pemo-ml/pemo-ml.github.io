@@ -28,7 +28,7 @@ PLUGIN_PATHS = ["/home/peter/Documents/pelican-plugins"]
 PLUGINS = ["metadataparsing", "render_math"]
 
 # adding favicon based on https://github.com/getpelican/pelican/wiki/Tips-n-Tricks
-STATIC_PATHS = ["extra/favicon.ico", "extra/CNAME", "images", "pages/bibtex"]
+STATIC_PATHS = ["extra/favicon.ico", "extra/CNAME", "images", "pages/bibtex", "extra/vis/paragraph-reading"]
 EXTRA_PATH_METADATA = {
     "extra/favicon.ico": {"path": "favicon.ico"},
     "extra/CNAME": {"path": "CNAME"},
