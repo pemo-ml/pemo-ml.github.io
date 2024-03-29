@@ -39,7 +39,7 @@ HEADER_LINKS = (
     ("About", "/pages/about.html"),
     ("Publications", "/pages/publications.html"),
     ("Previous Projects", "/pages/previous-projects.html"),
-    ("Blog", "/"),
+    ("Blog", "/blog/index.html"),
     ("Book List", "/pages/books.html"),
 )
 

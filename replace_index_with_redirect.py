@@ -1,0 +1,23 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*- #
+
+import os
+import os.path as osp
+import shutil
+
+publications_text = """
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="refresh" content="0; url=/pages/publications.html">
+    <title>Redirecting...</title>
+</head>
+<body>
+    <p>If you are not redirected, <a href="/pages/publications.html">click here</a>.</p>
+</body>
+</html>
+"""
+
+if osp.isfile("output/index.html"):
+	with open("output/index.html", "w") as file_handle:
+		file_handle.write(publications_text)

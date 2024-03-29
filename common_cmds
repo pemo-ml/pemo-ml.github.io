@@ -5,3 +5,5 @@ make publish
 pelican-themes --install [THEME_DIR]--verbose
 git rm --cached projectfolder
 https://fedoramagazine.org/make-github-pages-blog-with-pelican/
+
+make html && make publish && python replace_index_with_redirect.py && python live_reload.py
