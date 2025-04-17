@@ -10,8 +10,9 @@ import sys
 sys.path.append(os.curdir)
 from pelicanconf import *
 
-SITEURL = 'https://tonyromarock.github.io'
-RELATIVE_URLS = True
+SITEURL = "https://petermortimer.de"
+FEED_DOMAIN = SITEURL
+RELATIVE_URLS = False
 
 FEED_ALL_ATOM = 'feeds/all.atom.xml'
 CATEGORY_FEED_ATOM = 'feeds/{slug}.atom.xml'

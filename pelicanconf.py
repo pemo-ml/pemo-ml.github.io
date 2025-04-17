@@ -6,6 +6,7 @@ import six
 AUTHOR = "Peter"
 SITENAME = "A Place for Asides"
 SITEURL = ""
+RELATIVE_URLS = True
 
 PATH = "content"
 
