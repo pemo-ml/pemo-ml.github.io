@@ -137,7 +137,7 @@ Here are all my talks that are publicly available.
 <div class="col-10 col-sm-10">
 <p style="margin: 0px;">"Einsatz von camera_aravis2 zur Kamerakonfiguration auf Robotersystemen"</p>
 <p style="margin: 0px;">ROSCon DE 2024, Karlsruhe, Germany.</p>
-<p><a href="https://roscon2024.de/presentations/S2_P4__Einsatz_von_camera_aravis2_zur_Kamerakonfiguration_auf_Robotersystemen.pdf">Slides</a> &middot; <a href="https://github.com/FraunhoferIOSB/camera_aravis2">GitHub</a></p>
+<p><a href="https://vimeo.com/1072432639">Video</a> &middot; <a href="https://roscon2024.de/presentations/S2_P4__Einsatz_von_camera_aravis2_zur_Kamerakonfiguration_auf_Robotersystemen.pdf">Slides</a> &middot; <a href="https://github.com/FraunhoferIOSB/camera_aravis2">GitHub</a></p>
 </div>
 <div class="col-2 col-sm-2">
 <a href="/images/publications/rosconde2024/title-card.jpg" 
