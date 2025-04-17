@@ -49,6 +49,9 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: output
+      - name: Create CNAME file
+        run: echo "petermortimer.de" > output/CNAME
+
 
   deploy:
     needs: build
