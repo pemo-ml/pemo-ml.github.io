@@ -48,6 +48,9 @@ jobs:
             echo "::warning title=Invalid file permissions automatically fixed::$line"
           done
 
+      - name: Debug output folder contents
+        run: ls -lah output && cat output/index.html || echo "index.html not found"
+
       - name: Upload site artifact
         uses: actions/upload-pages-artifact@v3
         with:
