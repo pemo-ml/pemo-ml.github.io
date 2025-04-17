@@ -1,0 +1,65 @@
+name: Deploy to GitHub Pages
+
+# This workflow is adapted from:
+# https://github.com/getpelican/pelican/blob/master/.github/workflows/github_pages.yml
+
+on:
+  push:
+    branches: ["main"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Checkout custom theme
+        run: git clone https://github.com/pemo-ml/mywilson.git .theme
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Build site with Pelican
+        run: |
+          pelican content --settings publishconf.py --theme .theme
+
+      - name: Run custom redirect script
+        run: python replace_index_with_redirect.py
+
+      - name: Fix permissions
+        run: |
+          chmod -c -R +rX output | while read line; do
+            echo "::warning title=Invalid file permissions automatically fixed::$line"
+          done
+
+      - name: Upload site artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: output
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    concurrency:
+      group: "pages"
+      cancel-in-progress: false
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
