@@ -3,7 +3,6 @@
 
 import os
 import os.path as osp
-import shutil
 
 publications_text = """
 <!DOCTYPE html>
@@ -18,6 +17,7 @@ publications_text = """
 </html>
 """
 
-if osp.isfile("output/index.html"):
-	with open("output/index.html", "w") as file_handle:
-		file_handle.write(publications_text)
+# Ensure output/ exists, then write the redirect index.html
+os.makedirs("output", exist_ok=True)
+with open("output/index.html", "w") as file_handle:
+    file_handle.write(publications_text)
