@@ -29,8 +29,8 @@ jobs:
       - name: Checkout custom theme
         run: git clone https://github.com/pemo-ml/mywilson.git .theme
 
-      - name: Install dependencies
-        run: pip install -r requirements.txt
+      - name: Install Pelican
+        run: pip install pelican
 
       - name: Build site with Pelican
         run: |
