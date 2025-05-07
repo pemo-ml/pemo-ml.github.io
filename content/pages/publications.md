@@ -12,7 +12,7 @@ Summary: An list of my research publications.
 <p><br/><br/></p>
 <p style="margin: 0px;">I'm a PhD candidate at the Bundeswehr University in Munich. I'm interested in Machine Learning, Computer Vision, and Data Visualization.</p>
 <p><br/></p>
-<p style="margin: 0px; text-align: center;"><a href="mailto:peter.mortimer@unibw.de">Email</a> &middot; <a href="https://github.com/tonyromarock">GitHub</a> &middot; <a href="https://scholar.google.com/citations?user=ckEIQp0AAAAJ">Google Scholar</a> &middot; <a href="https://arxiv.org/search/cs?query=Mortimer%2C+Peter&searchtype=author&abstracts=show&order=-announced_date_first">arXiv</a></p>
+<p style="margin: 0px; text-align: center;"><a href="mailto:peter.mortimer@unibw.de">Email</a> &middot; <a href="https://github.com/pemo-ml">GitHub</a> &middot; <a href="https://scholar.google.com/citations?user=ckEIQp0AAAAJ">Google Scholar</a> &middot; <a href="https://arxiv.org/search/cs?query=Mortimer%2C+Peter&searchtype=author&abstracts=show&order=-announced_date_first">arXiv</a></p>
 </div>
 <div class="col-5 col-sm-5">
 <a href="/images/about/peter_kyoto.jpg"><img style="width:100%;max-width:100%;border-radius: 50%; box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);" src="/images/about/peter_kyoto.jpg"/></a>
