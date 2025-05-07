@@ -37,11 +37,11 @@ EXTRA_PATH_METADATA = {
 
 # Links in header
 HEADER_LINKS = (
-    ("About", "/pages/about.html"),
-    ("Publications", "/pages/publications.html"),
-    ("Previous Projects", "/pages/previous-projects.html"),
-    ("Blog", "/blog/index.html"),
-    ("Book List", "/pages/books.html"),
+    ("About", "/about.html"),
+    ("Publications", "/publications.html"),
+    ("Previous Projects", "/previous-projects.html"),
+    ("Blog", "/index.html"),
+    ("Book List", "/books.html"),
 )
 
 # Blogroll

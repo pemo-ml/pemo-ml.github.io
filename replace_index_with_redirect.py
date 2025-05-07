@@ -8,11 +8,11 @@ publications_text = """
 <!DOCTYPE html>
 <html>
 <head>
-    <meta http-equiv="refresh" content="0; url=/pages/publications.html">
+    <meta http-equiv="refresh" content="0; url=/publications.html">
     <title>Redirecting...</title>
 </head>
 <body>
-    <p>If you are not redirected, <a href="/pages/publications.html">click here</a>.</p>
+    <p>If you are not redirected, <a href="/publications.html">click here</a>.</p>
 </body>
 </html>
 """
