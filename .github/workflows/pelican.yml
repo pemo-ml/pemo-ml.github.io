@@ -30,7 +30,7 @@ jobs:
         run: git clone https://github.com/pemo-ml/mywilson.git .theme
 
       - name: Install Pelican
-        run: pip install pelican
+        run: pip install pelican markdown pelican-render-math pelican-metadataparsing
 
       - name: Build site with Pelican
         run: |
