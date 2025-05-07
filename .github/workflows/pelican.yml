@@ -39,6 +39,9 @@ jobs:
       - name: Run custom redirect script
         run: python replace_index_with_redirect.py
 
+      - name: Check generated output structure
+        run: find output
+
       - name: Create CNAME file
         run: echo "petermortimer.de" > output/CNAME
 

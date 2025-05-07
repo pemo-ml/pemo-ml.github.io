@@ -2,9 +2,6 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
-# This file is only used if you use `make publish` or
-# explicitly specify it as your config file.
-
 import os
 import sys
 sys.path.append(os.curdir)
@@ -20,9 +17,7 @@ CATEGORY_FEED_ATOM = 'feeds/{slug}.atom.xml'
 DELETE_OUTPUT_DIRECTORY = False
 LOAD_CONTENT_CACHE = False
 
-# one of the static pages should appear as root of the page instead
-# of the blog (check the pelican docs for the settings here: 
-# https://docs.getpelican.com/en/latest/settings.html)
+# Paths and URLs for articles (blog posts)
 ARTICLE_URL = 'blog/{slug}.html'
 ARTICLE_SAVE_AS = 'blog/{slug}.html'
 CATEGORY_URL = 'blog/category/{slug}.html'
@@ -31,7 +26,11 @@ TAG_URL = 'blog/tag/{slug}.html'
 TAG_SAVE_AS = 'blog/tag/{slug}.html'
 INDEX_SAVE_AS = 'blog/index.html'
 
-# Following items are often useful when publishing
+# ✅ Add these lines to ensure static pages (e.g. about.md) are built
+PAGE_PATHS = ['pages']
+PAGE_URL = '{slug}.html'
+PAGE_SAVE_AS = '{slug}.html'
 
-#DISQUS_SITENAME = ""
-#GOOGLE_ANALYTICS = ""
+# Optional: turn on plugins, analytics, etc.
+# DISQUS_SITENAME = ""
+# GOOGLE_ANALYTICS = ""
