@@ -27,6 +27,23 @@ Here are all my publcations listed with links to the papers and repositories.
 
 <div class="row">
 <div class="col-2 col-sm-2">
+<a href="/images/publications/wfr-icra2025/landscape_snow_inpainting.jpg" 
+data-lightbox="uoa-lightbox" 
+data-title="The diffusion-based image augmentations allow us to take control over the semantic distribution of the ground surfaces in the training data and to fine-tune our model for its deployment environment. We employ open vocabulary semantic segmentation models to filter out augmentation candidates that contain hallucinations. We believe that diffusion-based image augmentations can be extended to many other environments apart from snow surfaces, like sandy environments and volcanic terrains." 
+data-alt=""><img style="border-radius: 5%; box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);" src="/images/publications/wfr-icra2025/landscape_snow_inpainting.jpg"/></a>
+</div>
+<div class="col-10 col-sm-10">
+<p style="margin: 0px;"><b>Peter Mortimer</b>, Mirko Maehlisch</p> 
+<p style="margin: 0px;">"Diffusion-Based Image Augmentation for Semantic Segmentation in Outdoor Robotics"</p>
+<p style="margin: 0px;"><i>Workshop on Field Robotics (<b>W-FR @ ICRA</b>)</i>, Atlanta, USA, May 2025.</p>
+<p><a href="https://arxiv.org/abs/2507.00153">Paper</a> &middot; <a href="bibtex/wfr-icra2025.bib">Bibtex</a> &middot; <a href="https://norlab-ulaval.github.io/icra_workshop_field_robotics/">Workshop Page</a></p>  
+</div>
+</div>
+
+<hr>
+
+<div class="row">
+<div class="col-2 col-sm-2">
 <a href="/images/publications/icra2025/goose-ex-title-card.jpg" 
 data-lightbox="uoa-lightbox" 
 data-title="We present an extension of the original GOOSE dataset with recordings from an autonomous excavator and a quadruped robot. Apart from releasing the data, we also showed the advantage of combining the GOOSE and GOOSE-Ex datasets to improve the 2D and 3D segmentation performance on the new robotic platforms." 
