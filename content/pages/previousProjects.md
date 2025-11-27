@@ -99,7 +99,13 @@ data-alt="This graph marks the locations of all cell towers in Mexico and compar
 <p>April 2017 - August 2017</p>
 </div>
 <div class="col-4 col-sm-4">
-<img src="/images/prev_projects/motif_image.png">
+<a href="/images/prev_projects/motif_image.jpg" 
+data-lightbox="bioinformatics-lightbox"
+data-title="Proteins are made up of a sequence of amino acids. This sequence also determines its 3D structure, which has further implications on its function. This 3D structure can be implicitly represented in a distance matrix for each animo acid in the sequence. The task was to develop a fully convolutional neural network that can determine if certain amino acid subgroups, known as motifs, resemble motifs also found in real protein sequences.
+This system could then be used as a first filter to determine if a thereotical protein has high changes to be synthesized." 
+data-alt="This is an image with an amino acid distance matrix and the neural network output heatmap for same input image. Proteins are made up of a sequence of amino acids. This sequence also determines its 3D structure, which has further implications on its function. This 3D structure can be implicitly represented in a distance matrix for each animo acid in the sequence. The task was to develop a fully convolutional neural network that can determine if certain amino acid subgroups, known as motifs, resemble motifs also found in real protein sequences.
+This system could then be used as a first filter to determine if a thereotical protein has high changes to be synthesized.">
+<img src="/images/prev_projects/motif_image.jpg"></a>
 </div>
 </div>
 <hr>
