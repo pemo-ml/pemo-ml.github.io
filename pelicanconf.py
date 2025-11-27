@@ -48,7 +48,7 @@ HEADER_LINKS = (
 LINKS = ()
 
 # Social widget
-SOCIAL = (("GitHub", "https://github.com/tonyromarock"),)
+SOCIAL = (("GitHub", "https://github.com/pemo-ml"),)
 
 DEFAULT_PAGINATION = 8
 
