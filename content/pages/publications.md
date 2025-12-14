@@ -152,7 +152,7 @@ Here are all my talks that are publicly available.
 
 <div class="row">
 <div class="col-10 col-sm-10">
-<p style="margin: 0px;">"Einsatz von camera_aravis2 zur Kamerakonfiguration auf Robotersystemen"</p>
+<p style="margin: 0px;">"Einsatz von camera_aravis2 zur Kamerakonfiguration auf Robotersystemen (🇩🇪)"</p>
 <p style="margin: 0px;">ROSCon DE 2024, Karlsruhe, Germany.</p>
 <p><a href="https://vimeo.com/1072432639">Video</a> &middot; <a href="https://roscon2024.de/presentations/S2_P4__Einsatz_von_camera_aravis2_zur_Kamerakonfiguration_auf_Robotersystemen.pdf">Slides</a> &middot; <a href="https://github.com/FraunhoferIOSB/camera_aravis2">GitHub</a></p>
 </div>
@@ -180,4 +180,21 @@ data-alt=""><img style="border-radius: 5%; box-shadow: 2px 2px 5px rgba(0, 0, 0,
 </div>
 </div>
 
+# Media Appearances
 
+Here are all appearances of my work in public media.
+
+<hr>
+<div class="row">
+<div class="col-10 col-sm-10">
+<p style="margin: 0px;">SWR: Autonomous Convoy @ ELROB'24 (🇩🇪)</p>
+<p style="margin: 0px;">ELROB 2024, Trier, Germany.</p>
+<p><a href="https://youtu.be/2xg_Y5dsd3Q?si=egfCNF8wqI2OHcxI&t=120">Video</a></p>
+</div>
+<div class="col-2 col-sm-2">
+<a href="/images/publications/elrob2024/swr_elrob24.jpg" 
+data-lightbox="uoa-lightbox" 
+data-title="This image shows me as operator of the autonomous vehicle. The following vehicle uses a vision-based tracking of the leading vehicle to follow its path with centimeter-level accuracy. For situations with no direct line-of-sight, the follower can rely on a landmark-based SLAM map that both vehicles share via WLAN." 
+data-alt="This image shows me as operator of the autonomous vehicle. The following vehicle uses a vision-based tracking of the leading vehicle to follow its path with centimeter-level accuracy. For situations with no direct line-of-sight, the follower can rely on a landmark-based SLAM map that both vehicles share via WLAN."><img style="border-radius: 5%; box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);" src="/images/publications/elrob2024/swr_elrob24.jpg"/></a>
+</div>
+</div>
