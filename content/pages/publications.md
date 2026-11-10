@@ -36,7 +36,7 @@ data-alt=""><img style="border-radius: 5%; box-shadow: 2px 2px 5px rgba(0, 0, 0,
 <p style="margin: 0px;">GOOSELoc: A Multimodal Benchmark for Ground-to-Aerial Localization in Unstructured Off-Road Terrain</p>
 <p style="margin: 0px;">Fabian Deuser, <b>Peter Mortimer</b>, Robin-Nico Kampa, Anna Boeßendoerfer, Mirko Maehlisch, Martin Werner, Norbert Oswalt</p> 
 <p style="margin: 0px;"><i>Winter Conference on Applications of Computer Vision (<b>WACV</b>)</i>, Orlando, USA, January 2027.</p>
-<p><a href="pages/bibtex/wacv2027.bib">Bibtex</a></p>  
+<p><a href="https://gooseloc.github.io/">Project Page</a> &middot; <a href="https://github.com/GOOSELoc/GOOSELoc">GitHub</a> &middot; <a href="https://huggingface.co/datasets/Skyy93/GOOSELoc">HuggingFace</a> &middot; <a href="pages/bibtex/wacv2027.bib">Bibtex</a></p>  
 </div>
 </div>
 
